@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
 body{margin: 0;
      font-size: large;
+     background-color: cornsilk;
 }
 h1{
      font-family: 'Ubuntu', sans-serif;
      font-size: 40px;
 }
 p{line-height: 2;}
-span {color: orange;}
+span {color: tomato;}
 .part1{
      width:40%;
      float:left;
@@ -17,11 +18,12 @@ span {color: orange;}
     
 div img{ width:100%;}
      
-.background1{
+section {height:500px;}
+
+.background1{ 
      background-image: url("images/top-banner.png"); 
       background-repeat:no-repeat;
       }
-section {height:500px;}
 .button{font-weight:bold;
      border-radius: 5px;
      padding: 10px 20px;
@@ -39,4 +41,29 @@ section {height:500px;}
      background-image: url("images/dream-bg.png"); 
       background-repeat:no-repeat;
       background-position: right;
+      }
+      .part3{
+     box-shadow: 10px 10px 40px gray;
+      border-radius:10px;
+      height: 90%;
+      width:40%;
+     float:left;
+     margin-left: 5%;
+     padding-left: 3%;
+      }
+  .background3{
+      background-image:url('images/exp-bg.png'); 
+       background-repeat: no-repeat;
+       background-position: left;
+  }
+  #expert{border-left: 7px solid;
+  border-image: linear-gradient(180deg,red,lightsalmon);
+       border-image-slice: 2;
+       background-color: cornsilk;
+  }
+  #front{border-left: 7px solid;
+  border-image: linear-gradient(180deg,blue,cyan);
+       border-image-slice: 2;
+  }
+      footer{text-align: center;
       }
